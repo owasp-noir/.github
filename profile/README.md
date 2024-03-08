@@ -1,5 +1,5 @@
 ## 🔍 What is Noir?
-Powerful attack surface detector designed to identify endpoints through static analysis. With its regex and lightweight lexer parser, Noir scans codebases for API and web endpoints.
+Powerful attack surface detector designed to identify endpoints through static analysis. With its regex and lightweight lexer parser, Noir scans codebases for detect API and web endpoints.
 
 These results provide valuable resources to security engineers and testers conducting WhiteBox and GrayBox testing, and can integrate with existing DevSecOps DAST Pipelines to support DAST in producing better outcomes.
 
