@@ -1,7 +1,7 @@
 ## 🔍 What is Noir?
-Powerful attack surface detector designed to identify endpoints through static analysis. With its regex and lightweight lexer parser, Noir scans codebases for detect API and web endpoints.
+Noir is an open-source project specializing in identifying attack surfaces for enhanced whitebox security testing and security pipeline. This includes the capability to discover API endpoints, web endpoints, and other potential entry points within source code for thorough security analysis.
 
-These results provide valuable resources to security engineers and testers conducting WhiteBox and GrayBox testing, and can integrate with existing DevSecOps DAST Pipelines to support DAST in producing better outcomes.
+![](https://github.com/noir-cr/.github/assets/13212227/5c6d29ce-ef37-4129-b3a3-2c90c8a75e37)
 
 ## 🚀 Key Features:
 
