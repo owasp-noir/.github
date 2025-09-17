@@ -1,7 +1,7 @@
 ## 🔍 What is Noir?
 OWASP Noir is an open-source project specializing in identifying attack surfaces for enhanced whitebox security testing and security pipeline. This includes the capability to discover API endpoints, web endpoints, and other potential entry points within source code for thorough security analysis.
 
-![](https://github.com/user-attachments/assets/aaac2800-4220-4ac2-bbe8-02882fa96550)
+![](https://github.com/user-attachments/assets/ad47d24f-1c41-4751-82c9-3b9a90cd7bd5)
 
 ## 🚀 Key Features:
 
