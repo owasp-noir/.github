@@ -11,7 +11,7 @@ OWASP Noir is an open-source project specializing in identifying attack surfaces
 - Structured data output in JSON and YAML for seamless collaboration with other tools.
 - Command line samples provided for easy integration with tools like cURL and HTTPie.
 
-![noir-banner](https://github.com/owasp-noir/.github/assets/13212227/5d8d2b4a-088f-4b22-9bf9-294f19fc1256)
+![noir-banner](https://github.com/user-attachments/assets/579bb475-25b9-4992-8be7-2a322598379e)
 
 ![https://github.com/owasp-noir/noir/releases](https://img.shields.io/github/v/release/owasp-noir/noir?style=for-the-badge&color=black)
 ![](https://img.shields.io/github/stars/owasp-noir?style=for-the-badge)
