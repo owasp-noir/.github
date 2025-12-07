@@ -1,7 +1,6 @@
 ## 🔍 What is Noir?
 
-OWASP Noir is an open-source attack surface discovery tool that automatically finds every endpoint in your codebase by combining precise static code analysis with AI.
-It reveals shadow APIs, undocumented routes, and hidden vulnerabilities that traditional tools and manual methods consistently miss — giving security teams and developers complete, accurate visibility into the real attack surface.
+By bypassing outdated documentation and proxies, Noir generates a comprehensive attack surface map directly from your code. This inventory provides White-box security teams and Pentesters with actionable data. The output is ready for direct integration with DAST solutions, ensuring no endpoint is left untested in your DevSecOps pipeline.
 
 ![](https://github.com/user-attachments/assets/fa6b19fb-9a53-46fd-9622-a19223b362a2)
 
