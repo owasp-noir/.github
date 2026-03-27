@@ -14,7 +14,7 @@ By bypassing outdated documentation and proxies, Noir uses your source code to d
 - DevSecOps Ready: Designed for seamless integration into security pipelines with support for tools like ZAP, Burp Suite, Caido, and more.
 - Multi-Format Output: Delivers results in JSON, YAML, OpenAPI Specification, and other formats for easy integration with your existing workflow.
 
-![noir-banner](https://github.com/user-attachments/assets/579bb475-25b9-4992-8be7-2a322598379e)
+![noir-banner](https://github.com/user-attachments/assets/ffb689cd-a8f8-48a6-8073-43f1d98ec1f3)
 
 ![https://github.com/owasp-noir/noir/releases](https://img.shields.io/github/v/release/owasp-noir/noir?style=for-the-badge&color=black)
 ![](https://img.shields.io/github/stars/owasp-noir?style=for-the-badge)
