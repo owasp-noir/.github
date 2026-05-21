@@ -1,18 +1,23 @@
 ## 🔍 What is Noir?
 
-Noir bridges the gap between SAST and DAST by analyzing source code to generate accurate, authenticated endpoint inventories. It detects what others miss: shadow APIs, deprecated endpoints, and hidden routes.
+Noir is a SAST tool that reads source code and extracts the endpoints an application exposes — paths, methods, parameters, headers, cookies, and the source files behind them. Shadow APIs, deprecated routes, and undocumented handlers come out as part of the same inventory; they aren't a separate mode.
 
-By bypassing outdated documentation and proxies, Noir uses your source code to deliver a comprehensive, actionable attack surface inventory. This single source of truth empowers White-box security teams and Pentesters and integrates directly with DAST solutions, eliminating testing blind spots across your DevSecOps pipeline.
+The inventory feeds three audiences:
+
+- **Human reviewers.** Security engineers and code auditors get a focused list of attacker-reachable entrypoints — paths, parameters, source files, tags — instead of skimming the whole repo.
+- **AI auditors.** LLM-based SAST agents get the same focused list, plus per-endpoint review context (`--include-callee` for 1-hop callees, `--ai-context` for guards, sinks, validators, and signals).
+- **DAST tools.** ZAP, Burp Suite, and Caido get a real route list to scan, including paths they would never have reached by crawling.
 
 ![](https://github.com/user-attachments/assets/fa6b19fb-9a53-46fd-9622-a19223b362a2)
 
-## 🚀 Key Features:
+## 🚀 Key Features
 
-- Attack Surface Discovery: Analyzes source code to identify your application's complete attack surface, including hidden endpoints, shadow APIs, and other security blind spots.
-- AI-Powered Analysis: Leverages Large Language Models (LLMs) to detect endpoints in any language or framework—even those not natively supported.
-- SAST-to-DAST Bridge: Connects static code analysis with dynamic testing by providing discovered endpoints to DAST tools, enabling more comprehensive and accurate security scans.
-- DevSecOps Ready: Designed for seamless integration into security pipelines with support for tools like ZAP, Burp Suite, Caido, and more.
-- Multi-Format Output: Delivers results in JSON, YAML, OpenAPI Specification, and other formats for easy integration with your existing workflow.
+- **Endpoint Extraction.** Static analysis across 50+ frameworks. Returns endpoints, parameters, headers, cookies, and the source files they came from.
+- **LLM Fallback.** Hand unsupported frameworks (or one-off custom routing) to OpenAI / Ollama / etc. when static rules don't apply.
+- **AI SAST Context.** The endpoint inventory is the focused context an LLM auditor needs to find attacker-reachable bugs. `--include-callee` attaches 1-hop callees; `--ai-context` adds aggregated review context per endpoint — guards, sinks, validators, and signals.
+- **DAST Integration.** Pipe directly into ZAP, Burp Suite, or Caido as a proxy target, or export OpenAPI for them to import.
+- **Multi-Format Output.** JSON, YAML, OpenAPI, SARIF, cURL, Postman, HTML, and more — whichever format the next tool in the pipeline reads.
+- **CI/CD Ready.** GitHub Action, SARIF output, exit codes. Fits the pipeline you already have.
 
 ![noir-banner](https://github.com/user-attachments/assets/ffb689cd-a8f8-48a6-8073-43f1d98ec1f3)
 
