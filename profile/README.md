@@ -1,32 +1,3 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/owasp-noir/noir/main/docs/static/images/noir-dark.png" width="500">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/owasp-noir/noir/main/docs/static/images/noir-light.png" width="500">
-    <img alt="OWASP Noir" src="https://raw.githubusercontent.com/owasp-noir/noir/main/docs/static/images/noir-dark.png" width="500">
-  </picture>
-  <p>Hunt every Endpoint in your code, expose Shadow APIs, map the Attack Surface.</p>
-</div>
-
-<p align="center">
-<a href="https://github.com/owasp-noir/noir/releases">
-<img src="https://img.shields.io/github/v/release/owasp-noir/noir?style=for-the-badge&color=black&labelColor=black&logo=web"></a>
-<a href="https://github.com/owasp-noir/noir">
-<img src="https://img.shields.io/github/stars/owasp-noir/noir?style=for-the-badge&color=black&labelColor=black"></a>
-<a href="https://crystal-lang.org">
-<img src="https://img.shields.io/badge/Crystal-000000?style=for-the-badge&logo=crystal&logoColor=white"></a>
-<a href="https://owasp.org/projects/noir">
-<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white"></a>
-<a href="https://www.bestpractices.dev/projects/14203">
-<img src="https://img.shields.io/badge/OpenSSF-Best%20Practices-000000?style=for-the-badge&labelColor=black"></a>
-</p>
-
-<p align="center">
-  <a href="https://owasp-noir.github.io/noir/">Documentation</a> •
-  <a href="https://owasp-noir.github.io/noir/get_started/installation/">Installation</a> •
-  <a href="https://owasp-noir.github.io/noir/usage/github_action/">GitHub Action</a> •
-  <a href="https://owasp.org/projects/noir">OWASP project page</a>
-</p>
-
 Noir is a SAST tool that reads source code and lists the endpoints an application exposes: paths, methods, parameters, headers, cookies, and the source files behind them. Shadow APIs, deprecated routes, and undocumented handlers are in the same inventory.
 
 The inventory has three readers:
